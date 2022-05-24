@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChargeControlBluetoothMobile.ChargePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="charge" Clicked="GetCharge_btn"></Button>
+            <Label x:Name="ChargeText" FontSize="72" VerticalOptions="Center" HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
